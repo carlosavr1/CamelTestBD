@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1491014553872
+Build-Jdk: 1.8.0_101
+Built-By: carlvarn
+Bundle-Description: Empty Camel Blueprint Example
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Empty Camel Blueprint Example [CamelTestBD]
+Bundle-SymbolicName: CamelTestBD
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: entity;version="1.0.0.SNAPSHOT"
+Import-Package: oracle.jdbc.pool,org.osgi.service.blueprint;version="[1.
+ 0.0,2.0.0)"
+Tool: Bnd-1.50.0
