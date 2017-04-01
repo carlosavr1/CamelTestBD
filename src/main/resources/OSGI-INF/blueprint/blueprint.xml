@@ -38,7 +38,7 @@
     </bean>
     <camelContext id="_contextPrincipal" xmlns="http://camel.apache.org/schema/blueprint">
         <route id="_routePrincipal">
-        	<from id="_fromTimerRegions" uri="timer:readRegions?period=300000"/>
+        	<from id="_fromTimerRegions" uri="timer:readRegions?period=30000"/>
             <to id="_toQueryRegions" uri="sql:SELECT * FROM REGIONS?dataSource=localDS&amp;outputClass=entity.Region"/>
             <log id="_logAll" message="Body: ${body}"/>
             <split id="_splitRegions">
